@@ -1,15 +1,15 @@
 # latex2pdfa
-A command line utility to automate the process of compiling a LaTex project to a PDF complaint with the PDF/A standard
+A command line utility to automate the process of compiling a LaTex project to a PDF complaint with the PDF/A standard.
+
 
 ## Requirements 
-* _The following assume you are using a **Debian/Ubuntu** machine_.
-* Not tested on a Windows machine.
+_Assuming you are using a **Debian/Ubuntu** machine_:
 
 + Python3
   + Usually pre-installed
 + [TeX Live](https://www.tug.org/texlive/)
   ```bash 
-    sudo apt install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-bibtex-extra
+    sudo apt install texlive-latex-base texlive-fonts-recommended texlive-latex-extra texlive-bibtex-extra
     ```
 + [ExifTool](https://exiftool.org/)
   ```bash
