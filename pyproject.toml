@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "latex2pdfa"
+version = "1.0.5"
+description = "A command line utility to automate the process of compiling a LaTex project to a PDF complaint with the PDF/A standard"
+authors = ["Abdeladim S."]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "12.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/abdeladim-s/latex2pdfa"
+"Bug Tracker" = "https://github.com/abdeladim-s/latex2pdfa/issues"
+
+[tool.poetry.scripts]
+latex2pdfa = 'latex2pdfa.latex2pdfa:main'
