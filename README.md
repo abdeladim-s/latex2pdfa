@@ -25,7 +25,7 @@ _Assuming you are using a **Debian/Ubuntu** machine_:
 
 ## Installation
 ```bash
-
+pip install latex2pdfa
 ```
 ## Usage
 Run the following in your terminal and follow the instructions:

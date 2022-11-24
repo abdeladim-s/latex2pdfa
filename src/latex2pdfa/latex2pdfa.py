@@ -32,13 +32,13 @@ from pathlib import Path
 from rich.panel import Panel
 from rich.prompt import Confirm
 from utils import open_file, run_process, executable_exists, console, logger
-
+import importlib.metadata
 
 __author__ = "Abdeladim S."
 __github__ = ""
 __copyright__ = "Copyright 2022"
 __license__ = "GPLv3"
-__version__ = "1.0.1"
+__version__ = importlib.metadata.version("latex2pdfa")
 __file__ = 'latex2pdfa'
 
 # intro
@@ -105,8 +105,9 @@ class Latex2pdfa:
         :param qpdf: qpdf executable
         """
         self.script_name = __file__  # the name of the script
-        self.resources = (Path('.').parent.parent / 'resources').absolute()
-        self.binaries = (Path('.').parent.parent / 'binaries').absolute()
+        d = os.path.dirname(sys.modules[self.script_name].__file__)
+        self.resources = (Path(d) / 'resources').absolute()
+        self.binaries = (Path(d) / 'binaries').absolute()
 
         self.main_tex_file = Path(main_tex_file)
         assert conformance_level in ['a', 'b', 'u']
