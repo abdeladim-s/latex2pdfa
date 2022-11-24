@@ -112,7 +112,7 @@ By digging around on Google, you can find people saying that you can perform the
 After a lot (I mean a lot) of trial and error, I found that the version `9.23` is giving the best results, I decided to include it with the project files.
 - The script uses both to produce a high quality PDF/A directly from the LaTex source files.
 - The script is only compatible with the `b` conformance level.
-Unfortunately, there is noway to generate a fully compatible `PDF/A-a` from LaTex until now as of my knowledge.
+Unfortunately, there is noway to generate a fully compatible `PDF/A-a` from LaTex until now (as of my knowledge).
 - More interesting information are available in the [FAQs](https://github.com/matteosecli/pdf2archive#faqs) section of [pdf2archive](https://github.com/matteosecli/pdf2archive).
 
 
