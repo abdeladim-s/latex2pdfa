@@ -4,6 +4,11 @@
 """
 A command line utility to automate the process of compiling a LaTex project to a PDF complaint with the PDF/A standard
 
+## Credits and other resources
+- [Peter Selinger: Creating high-quality PDF/A documents using LaTeX](https://www.mathstat.dal.ca/~selinger/pdfa/)
+- [latex-pdfa-howto](https://github.com/op3/latex-pdfa-howto)
+
+
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later
@@ -14,11 +19,6 @@ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with
 this program. If not, see <http://www.gnu.org/licenses/>.
 
-more info:
-https://www.mathstat.dal.ca/~selinger/pdfa/
-
-Prerequisites:
-1- you must have pdflatex installed, as well as the hyperref and xmpincl packages. Most modern TeX distributions have these things preinstalled.
 """
 
 import argparse
