@@ -105,7 +105,7 @@ By digging around on Google, you can find people saying that you can perform the
 
 </blockquote>
 
-## Discussion
+## Notes
  
 - The use of the `pdfx` package alone still produce validation errors!!
 - The use of `Ghostscript` alone to convert the PDF to PDF/A is not always successful. Sometimes the old versions does not work. Sometimes, the recent versions does not have the same arguments because it is always evolving, and even if it works, you may find that the links are not working, or the table of contents does not exist, etc.
