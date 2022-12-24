@@ -1,7 +1,7 @@
 # latex2pdfa
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-A command line utility to automate the process of compiling a LaTex project to a PDF complaint with the PDF/A standard.
+A command line utility to automate the process of compiling a LaTeX project to a PDF complaint with the PDF/A standard.
 
 
 ## Setup 
